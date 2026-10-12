@@ -1,0 +1,10 @@
+{
+  "resource": "cfx-vrd-mapdata",
+  "version": "1.0.0",
+  "download": "https://portal.cfx.re/assets/granted-assets?page=1&sort=asset.updated_at&direction=asc&search=cfx-vrd-mapdata",
+  "changelog": {
+    "1.0.0": [
+      "Shared map data for Verdant Studios maps: gta5.meta + door tuning (base game + Verdant maps)."
+    ]
+  }
+}

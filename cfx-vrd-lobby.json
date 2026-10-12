@@ -1,0 +1,10 @@
+{
+  "resource": "cfx-vrd-lobby",
+  "version": "1.0.0",
+  "download": "https://portal.cfx.re/assets/granted-assets?page=1&sort=asset.updated_at&direction=asc&search=cfx-vrd-lobby",
+  "changelog": {
+    "1.0.0": [
+      "First release: Crastenburg Apartments lobby (Little Seoul) with working doors, elevators, interior audio and night lighting."
+    ]
+  }
+}
