@@ -1,0 +1,10 @@
+{
+  "resource": "cfx-vrd-coffeeshop",
+  "version": "1.0.0",
+  "download": "https://portal.cfx.re/assets/granted-assets?page=1&sort=asset.updated_at&direction=asc&search=cfx-vrd-coffeeshop",
+  "changelog": {
+    "1.0.0": [
+      "First release: coffeeshop on Vespucci Beach with bar, seating, toilets, warehouse and first-floor office and stock room."
+    ]
+  }
+}
