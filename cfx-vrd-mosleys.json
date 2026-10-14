@@ -1,0 +1,10 @@
+{
+  "resource": "cfx-vrd-mosleys",
+  "version": "1.0.0",
+  "download": "https://portal.cfx.re/assets/granted-assets?page=1&sort=asset.updated_at&direction=asc&search=cfx-vrd-mosleys",
+  "changelog": {
+    "1.0.0": [
+      "First release: ..."
+    ]
+  }
+}
