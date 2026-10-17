@@ -1,8 +1,16 @@
 {
   "resource": "cfx-vrd-lobby",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "download": "https://portal.cfx.re/assets/granted-assets?page=1&sort=asset.updated_at&direction=asc&search=cfx-vrd-lobby",
   "changelog": {
+    "1.1.0": [
+      "Replaced custom interior doors and janitor room lights with base GTA 5 assets.",
+      "Updated textures across the interior doorframes (green finish), entrance frame, exterior window frame, and elevator.",
+      "Redesigned the exterior window frame and replaced elevator handles.",
+      "Added a light above the stairwell door and a stairwell area for potential future expansion.",
+      "Added a timecycle modifier for per-room lighting control.",
+      "Populated the lobby with additional props and fixed missing dirt decals above baseboards."
+    ],
     "1.0.0": [
       "First release: Crastenburg Apartments lobby (Little Seoul) with working doors, elevators, interior audio and night lighting."
     ]
