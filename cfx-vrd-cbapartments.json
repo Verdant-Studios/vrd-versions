@@ -1,0 +1,10 @@
+{
+  "resource": "cfx-vrd-cbapartments",
+  "version": "1.0.0",
+  "download": "https://portal.cfx.re/assets/granted-assets?page=1&sort=asset.updated_at&direction=asc&search=cfx-vrd-cbapartments",
+  "changelog": {
+    "1.0.0": [
+      "First release: Crastenburg Apartments in Little Seoul. Two apartment blocks, two garages, a lobby with working elevators going to each floor and 3 floor types to choose from for 22 floors across the buildings."
+    ]
+  }
+}
