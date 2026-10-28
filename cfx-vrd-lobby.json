@@ -1,90 +1,18 @@
 {
   "resource": "cfx-vrd-lobby",
-  "version": "1.1.1",
+  "version": "1.1.0",
   "download": "https://portal.cfx.re/assets/granted-assets?page=1&sort=asset.updated_at&direction=asc&search=cfx-vrd-lobby",
   "changelog": {
-    "1.1.1": [
-      "Elevator doors are now native GTA sliding doors (like Rockstar's own sliding doors): they open by themselves when you walk up and close again, with Rockstar's elevator door sound. No script runs for the doors anymore, so the resource has no client script at all. Needs the updated cfx-vrd-mapdata (door settings for the new elevator doors).",
-      "Better FPS inside the lobby: far fewer shadow-casting lights (the hanging LED bars and the wall/ceiling lamps), fewer lights along the LED bars with the same amount of light, and the stairwell lights fade out at a distance.",
-      "Stairwell textures are now compressed and sized like the rest of the lobby (stairwell texture memory 36 MB -> 11 MB).",
-      "You can no longer look into the elevator past the edges or over the top of the closed doors."
-    ],
     "1.1.0": [
-      "Stairwell behind the stairwell door: a full stairwell room up to floor 6 (U-shaped stairs with landings, balustrades and handrails) with its own collision, sound, lighting and timecycle. The stairs up are blocked off with painters' gear and barrier tape for now; the corridor doors on floors 1-6 are locked.",
-      "Lived-in stairwell details: green tiled base along the stairs, ceiling plinths, dirt and wear, a wall-mounted fire extinguisher and a recycling corner.",
-      "More dressing in the hall: vase, bowl, mail tray and books on the chest, a plant, a water cooler, a realistic pile of junk mail and the Verdant leaf logo on the sideboard.",
-      "Own timecycle settings for the hall and the janitor room.",
-      "Janitor room and stairwell doors are now normal GTA V doors (the stairwell door is no longer locked).",
-      "Elevators: clean brushed stainless steel and real round stainless handrails in the cabins.",
-      "Lighting: one hanging LED bar per zone in the hall and seating area, real GTA V light fittings in the janitor room.",
-      "Entrance storefront and doors modernised (anthracite aluminium, brushed steel), seating-area window cleaned up outside, green steel inside door frames.",
-      "Dirt line and ceiling plinths along every wall.",
-      "Flickering wall next to the stairwell door.",
-      "Door tuning (cfx-vrd-mapdata) no longer lists removed door models."
+      "Replaced custom interior doors and janitor room lights with base GTA 5 assets.",
+      "Updated textures across the interior doorframes (green finish), entrance frame, exterior window frame, and elevator.",
+      "Redesigned the exterior window frame and replaced elevator handles.",
+      "Added a light above the stairwell door and a stairwell area for potential future expansion.",
+      "Added a timecycle modifier for per-room lighting control.",
+      "Populated the lobby with additional props and fixed missing dirt decals above baseboards."
     ],
     "1.0.0": [
       "First release: Crastenburg Apartments lobby (Little Seoul) with working doors, elevators, interior audio and night lighting."
     ]
-  },
-  "notes": {
-    "1.1.1": {
-      "added": [],
-      "changed": [
-        "Elevator doors are now native GTA sliding doors (like Rockstar's own sliding doors): they open by themselves when you walk up and close again, with Rockstar's elevator door sound. No script runs for the doors anymore, so the resource has no client script at all. Needs the updated cfx-vrd-mapdata (door settings for the new elevator doors)."
-      ],
-      "fixed": [
-        "Better FPS inside the lobby: far fewer shadow-casting lights (the hanging LED bars and the wall/ceiling lamps), fewer lights along the LED bars with the same amount of light, and the stairwell lights fade out at a distance.",
-        "Stairwell textures are now compressed and sized like the rest of the lobby (stairwell texture memory 36 MB -> 11 MB).",
-        "You can no longer look into the elevator past the edges or over the top of the closed doors."
-      ],
-      "files": {
-        "added": [
-          "stream/props/vrd_lobby_door_elevator_2.yft"
-        ],
-        "changed": [
-          "README.md",
-          "audio/vrd_lobby_game.dat151.rel",
-          "fxmanifest.lua",
-          "stream/mlo/vrd_lobby.ytyp",
-          "stream/mlo/vrd_lobby_hall.ydr",
-          "stream/mlo/vrd_lobby_janitor.ydr",
-          "stream/mlo/vrd_lobby_stairwell.ydr",
-          "stream/props/vrd_lobby_door_elevator.yft",
-          "versions.lua"
-        ],
-        "removed": [
-          "client.lua"
-        ]
-      }
-    },
-    "1.1.0": {
-      "added": [
-        "Stairwell behind the stairwell door: a full stairwell room up to floor 6 (U-shaped stairs with landings, balustrades and handrails) with its own collision, sound, lighting and timecycle. The stairs up are blocked off with painters' gear and barrier tape for now; the corridor doors on floors 1-6 are locked.",
-        "Lived-in stairwell details: green tiled base along the stairs, ceiling plinths, dirt and wear, a wall-mounted fire extinguisher and a recycling corner.",
-        "More dressing in the hall: vase, bowl, mail tray and books on the chest, a plant, a water cooler, a realistic pile of junk mail and the Verdant leaf logo on the sideboard.",
-        "Own timecycle settings for the hall and the janitor room."
-      ],
-      "changed": [
-        "Janitor room and stairwell doors are now normal GTA V doors (the stairwell door is no longer locked).",
-        "Elevators: clean brushed stainless steel and real round stainless handrails in the cabins.",
-        "Lighting: one hanging LED bar per zone in the hall and seating area, real GTA V light fittings in the janitor room.",
-        "Entrance storefront and doors modernised (anthracite aluminium, brushed steel), seating-area window cleaned up outside, green steel inside door frames.",
-        "Dirt line and ceiling plinths along every wall."
-      ],
-      "fixed": [
-        "Flickering wall next to the stairwell door.",
-        "Door tuning (cfx-vrd-mapdata) no longer lists removed door models."
-      ]
-    },
-    "1.0.0": {
-      "added": [
-        "First release: Crastenburg Apartments lobby (Little Seoul) with working doors, elevators, interior audio and night lighting."
-      ],
-      "changed": [],
-      "fixed": []
-    }
-  },
-  "released": {
-    "1.1.1": "2026-10-28"
   }
 }
