@@ -1,8 +1,12 @@
 {
   "resource": "cfx-vrd-mapdata",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "download": "https://portal.cfx.re/assets/granted-assets?page=1&sort=asset.updated_at&direction=asc&search=cfx-vrd-mapdata",
   "changelog": {
+    "1.2.0": [
+      "Added scenario files (stream/scenarios): the game's ambient ped spots with the points removed or modified that no longer fit a Verdant map.",
+      "Added navmesh files (stream/navmesh):he edits for navigation of NPC's in Verdant maps."
+    ],
     "1.1.2": [
       "Modified doortuning for cfx-vrd-lobby's new elevator doors functionality."
     ],
